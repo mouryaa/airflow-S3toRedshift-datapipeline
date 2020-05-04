@@ -2,6 +2,8 @@
 
 The source data resides in S3 and needs to be processed into a data warehouse in Amazon Redshift. The source datasets consist of CSV logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
+  </br><img src="/imgs/pipeline.png" width="800" height=auto />
+
 ## Project Setup - to run locally
 
 1. Install Airflow, create variable AIRFLOW_HOME and AIRFLOW_CONFIG with the appropiate paths, and place dags and plugins on airflor_home directory.
